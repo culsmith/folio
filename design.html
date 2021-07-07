@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+   <title> Design </title>
+  </head>
+  <body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+      <nav>
+        <li><h4 class = "smi"> Cullen R. Smith </h4></li>
+        <div class="topnav">
+          <li><h4 class = "cull"> Cullen R. Smith </h4></li>
+          <li><a href="index.html">Home</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio
+            </button>
+            <div class="dropdown-content">
+              <a class="active" href="design.html">Design</a>
+              <a href="research.html">Research</a>
+            </div>
+          </div>
+          <li><a href="impact.html"> About</a></li>
+          <li><a href="contact.html">Contact</a></li> 
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+      <script> 
+        const hamburger = document.querySelector(".hamburger");
+        const topnav = document.querySelector(".topnav");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+          hamburger.classList.toggle("active");
+          topnav.classList.toggle("active");
+        }
+        </script>
+
+    </nav>
+  </header>
+
+  <main id="skip" tabindex="0">
+    
+    <div class="parallax">
+      <div class= "parallax-txt"> 
+        <h2 style ="font-weight: normal;">My Design Work</h1>
+    </div>
+    </div>
+    <br>
+
+    <div class="flowcontainer">
+      <img class="flowitem"src="images/flow1.png"></img>
+      <div class="flow-center"><H2 style= "font-weight: normal;">Trillium Word Blending</H2><br>
+        <h4>This was a design completed for my first graphic design course. 
+          You can see my first sketches on the left, as well as the finished
+          product on the right. The goal was to impart more of a peaceful tone from the lighter tones. <br>
+
+        </h4><br>
+        <h4> This project helped me understand how important readability is in text. 
+          The wrong font can render the communication of effective and relatable design ineffective. <br>
+
+        </h4>
+      </div>
+      <img class="flowitem" src="images/flow2.png"></img>
+    </div>
+  
+    <div class="mushcontainer">
+      <div class="mushitem"><H2 style= "font-weight: normal;"> Typographic Mushrooms</H2>
+      </div>
+      <img class="mush-center"src="images/mush.png"></img>
+      <div class="mushitem">
+        <h4>This design reflects my love of nature and my interest in foraging. 
+          I grew up exploring all the corners of Michigan with my family, so this design takes 
+          all of the mushrooms that I have seen across my home state into one design. 
+        </h4><br>
+        <h4>One lesson that I took from this personal project was the use of complimentary fonts and effective cropping. 
+            Believe me when I say that it is hard to crop around biological sketches from an 18th-century lab manual! 
+            
+        </h4><br>
+      </div>
+    </div>
+
+    <div class="mushcontainer">
+      <div class="mushitem"><H2 style= "font-weight: normal;"> Weather App Mock-Up</H2>
+      </div>
+      <img class="mush-center"src="images/cars.png"></img>
+      <div class="mushitem">
+        <h4>This was a design completed as a challenge for my first graphic design course. It was the first real combination of 
+          different elements, from typography and icons to complimentary colors and masking. I also wanted to make this application
+          mock-up as interactive as possible; my hope was that the car would be pulled horizontally to change the time, as indicated 
+          by the screens if read from left to right. While I would by no means say that the addition of the car was "bold," I definitely learned the value of taking risks in 
+            design and understanding their implications to users. 
+          </h4>
+        </h4>
+        
+      </div>
+    </div>
+
+    <div class="aboutcontainers">
+      <div class="features">
+        <h2 style = "font-weight: normal;">Interested? Let's Talk! <a href="contact.html" title="resume" target="_blank">
+          <img class="ico" src="images/arrow.png"></img></a></h2>
+      </div>
+    </div>
+
+      </main>
+      <br>
+      <br>
+      <footer>
+        <div id="social">
+          <div id="container">
+             <ul>
+              <li>
+                <a href="" title="Logo" target="_blank">
+                   <img class="icos" src="images/apple-touch-icon.png"></img>
+                </a>
+             </li>
+      
+                <li>
+                   <a href="https://www.linkedin.com/in/cullen-r-smith/" title="LinkedIn" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                   </a>
+                </li>
+        
+                <li>
+                   <a href="https://twitter.com/cullenrsmith?lang=en" title="Twitter" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                   </a>
+                  </li>
+        
+                <li>
+                   <a href="https://www.instagram.com/cullenrsmith/" title="Instagram" target="_blank">
+                      <i class="fa fa-instagram"></i>
+                   </a>
+                </li>
+             </ul>
+          </div>
+        </div>
+        </footer>
+
+      </body>
+      </html>
